@@ -9,9 +9,7 @@ import com.SchoolManagementSystem.Lms.core.IPage;
  */
 public class HomePagePanel extends javax.swing.JPanel implements IPage{
 
-    /**
-     * Creates new form HomePagePanel
-     */
+    
     public HomePagePanel() {
         initComponents();
     }
@@ -94,7 +92,6 @@ public class HomePagePanel extends javax.swing.JPanel implements IPage{
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
         MainFrame.instance.setPage(MainFrame.instance.getLoginPage());
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -103,8 +100,6 @@ public class HomePagePanel extends javax.swing.JPanel implements IPage{
         MainFrame.instance.setPage(MainFrame.instance.getAddClassPage());
     }//GEN-LAST:event_jButton2ActionPerformed
 
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
